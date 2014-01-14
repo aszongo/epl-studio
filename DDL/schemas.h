@@ -1,5 +1,4 @@
 
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -10,7 +9,7 @@ extern void connect() {
 }
 
 extern void connect_db() {
-
+	fprintf(stdout, "#! -- Usage: connect {db} [-u name] [-p password]\n");
 }
 
 extern void disconnect_db() {
